@@ -1,0 +1,30 @@
+*{margin: 0px;
+padding: 0px;
+}
+.sekil1{ 
+    background-size: cover;
+}
+
+.list1{
+height: 200px;
+width: 500px;
+border: 56px solid rgb(173, 11, 11);
+margin: auto;
+font-size: 20px;
+color: rgb(151, 42, 165);
+text-align: center;
+margin: 30px;
+cursor: pointer;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.list1:hover{
+    background-image: -o-repeating-linear-gradient(
+    blue,red,green
+    );color: rgb(115, 134, 128);
+}
+
+
+
+
