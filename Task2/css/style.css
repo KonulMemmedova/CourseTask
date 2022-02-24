@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(231, 223, 223);
+   background-size: cover;
+}
+
+p{
+    text-align: center;
+
+}
+h1{text-align: center;}
+h3{
+    text-align: center;
+}
+
+div{
+    width:15%;
+    height: 100PX;
+    background-color: brown;
+    border-style:solid;
+    display: inline-block;
+    border-radius: 30px;
+    border-color: blue;
+    
+}
+span{color: blueviolet;}
