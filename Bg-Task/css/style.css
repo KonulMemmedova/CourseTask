@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{width: 100%;
+    background-color: rgb(21, 199, 199);
+    height: 500px;
+    background-image: url(../img/hero-1.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+   background-size: contain;
+   background-position: right ;
+}
+.basliq{width:55%;
+    padding-top:120px;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+.basliq h1{
+
+color: white;
+word-spacing: 4px;
+  font-size: 40px ;
+
+
+}
+p{size: 20px;
+    color: white;
+    margin: 20px auto;
+    word-spacing: 4px;
+}
+.btn{text-align: center;
+  font-size:15px;
+    border-radius: 8px;
+    margin-top: 35px;
+   border-style: none;
+}
+.basliq .btn {
+    padding:15px;
+    color: rgb(66, 216, 216);
+}
+
+.basliq .ntb{
+  color: rgb(44, 211, 211);
+
+}
+.ntb{
+ 
+   margin-left: 15px;
+}
+
+
+
+
+
+
