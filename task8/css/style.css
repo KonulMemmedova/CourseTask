@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+header{ 
+    background-color: rgb(7, 85, 202);
+
+}
+.cantianer{
+    width: 80%;
+    margin: auto;
+}
+.parent{
+  display: flex;
+ 
+   
+}
+.cantianer .right ul li {
+    margin-left:20px;
+    text-align: -webkit-match-parent;
+    list-style-type: none;
+    display: inline;
+    margin: 0 10px; 
+  
+   
+
+}
+
+.cantianer .parent .right ul li a{
+    text-decoration: none; 
+     font-size: 12px;
+    color: rgb(2, 2, 2); 
+}
+.parent .right ul li {
+   display: flex;
+    align-items: center;
+}
+.bgMain .textMain h1{
+    width: 600px;
+    font-size: 50px;
+    line-height:60px;
+}
+.bgMain:hover .textMain{
+    color: red;
+}
+.btn a{
+    color: white;
+    background-color: rgb(20, 20, 206);
+    display: flex;
+    justify-content: space-between;
+  float: left;
+  margin-left: 20px;
+  margin-top: 40px;
+  border:10px solid blue;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.btn:hover a{
+    background-color: red;
+}
+
+
+.parent .right ul{
+    display: flex;
+    height: 70px;
+    margin-left: 130px;
+}
+.parent .right ul li:hover a {
+    color: blue;
+}
+
+section{ width: 100%;
+    height: 500px;
+    background-image: url(../img/xhero1.jpg.pagespeed.ic.uGZwfkcUkG.webp);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+ background-position: center;
+
+}
+.bgMain .textMain h1{
+    padding-top:100px;
+   
+}
+.bgMain .textMain{
+     line-height: 30px;
+     font-size: 1rem;
+     color: white;
+     letter-spacing: 4px;
+}
+.maintwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+}
+
+.cantainer{
+    position: relative;
+    width: 1100px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.cantainer .card{
+    position: relative;
+    max-width: 260px;
+    height: 200px;
+    background:rgb(160, 18, 18);
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 202px rgba(5, 3, 5, 0.5);
+    transition: 0,3s ease-in-out;
+}
+.cantainer .card:hover {
+    height:320px;
+    color: rgb(38, 206, 150);
+   
+
+}
+.topMain{
+     padding-top: 50px;
+    text-align: center;
+    background-color: blue;
+    font-size: large;
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+}
+.topMain a{
+ 
+    padding-top: 60px;
+    color: white;
+    font-size:60px;
+}
+.topMain:hover a{
+    color: red;
+}
+.cantainer .card .imgbx{
+    position: relative;
+    width:200px;
+    height:200px;
+    display: flex;
+    top: -60px;
+    left: 20px;
+    z-index: 1;
+    box-shadow: 0 5px 202px rgba(255, 251, 251, 0.2);
+}
+.cantainer .card .imgbx img{
+max-width: 100%;
+border-radius: 4px;
+
+}
+.cantainer .card .content{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+   text-align: center;
+   color: #111;
+visibility: hidden;
+opacity: 0;
+transition: 0,3s ease-in-out;
+
+}
+.cantainer .card:hover .content{
+visibility: visible;
+opacity: 1;
+margin-top: -60px;
+transition-delay: 0,3s;
+
+}
+.content .sosial a{
+    color: white;
+    font-size: 40px;
+  
+}
+.content .sosial:hover a{
+    color: rgb(93, 93, 255);
+    font-size: 60px;
+}
