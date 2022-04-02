@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto+Mono:wght@200;300&family=Roboto+Serif:wght@300;400&family=Roboto+Slab:wght@400;500&family=Roboto:ital,wght@0,300;0,400;1,400&display=swap');
+body{
+    width: 100%;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Serif', serif;
+    font-family: 'Roboto Slab', serif;
+
+    main{
+        background-color: #fa4251;
+        position: relative;
+        
+        
+        #regForm{
+            width: 30%;
+            min-height: 750px;
+
+            .container{
+                .box{
+                    top: 20%;
+                    left: 20%;
+                    position: absolute;
+                    background-color: rgb(247, 247, 247);
+                    border-radius: 54px;
+                    width: 60%;
+                    display: flex;
+                    height: 550px;
+
+                    .left-reg{
+                       background: url(../img/bg-heading-02.jpg) top left/cover no-repeat;
+                        width: 30%;
+                        height: 550px;
+                        border-top-left-radius: 15px;
+                        border-bottom-left-radius: 15px;
+                    }
+                      
+                    .right-reg{
+                        height: 550px;
+                        padding: 60px 70px;
+                        padding-bottom: 88px;
+                        width: 70%;
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        
+                        
+                        .card{
+                            h2{
+                                text-transform: uppercase;
+                                font-weight: 700;
+                                margin-bottom: 37px;
+                                font-size: 30px;
+                                box-sizing: inherit;
+    
+    
+
+                            }
+                            form{
+                                padding: -14px;
+                                .form-reg{
+                                    width: 100%;
+                                    padding: -3px 0;
+                                    border-bottom: 1px solid #e5e5e5;
+                                    margin-bottom: 22px;
+                                    input{
+                                        outline: none;
+                                        padding: 9px;
+                                        width: 100%;
+                                        border: none;
+                                        font-weight: 500; 
+                                        font-size: 16px;
+                                        color: #666;
+    
+    
+    
+                                    }
+                                }
+                                .form2reg{
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    width: 100%;
+                                    margin-top: 20px;
+                                    .select2-hidden-accessible{
+                                        outline: none;
+                                        font-weight: 500;
+                                        font-size: 16px;
+                                        color: #666;
+                                        width: 100%;
+                                        padding: 8px;
+                                        border: none;
+                                    }
+                                    .form-1{
+                                        padding: 9px 0;
+                                        border-bottom: 1px solid #e5e5e5;
+                                        margin-bottom: 32px;
+                                        width: 50%;
+                                        
+                                        input{
+                                            padding: 8px;
+                                            border: none;
+                                            outline: none;
+                                            font-weight: 500; 
+                                            font-size: 16px;
+                                            color: #666;
+    
+                                        }
+                                        i{
+                                            position: absolute;
+                                            font-size: 18px;
+                                            color: #ccc;
+                                            right: 8px;
+                                            top: 50%;
+                                            transform: translateY(-50%);
+                                            cursor: pointer;
+                                            font-weight: 900;
+                                        }
+                                    }
+                                    .form-1{
+                                     padding: 9px 0;
+                                     width: 50%;
+                                     position: relative;
+                                     border-bottom: 1px solid #e5e5e5;
+                                     margin-bottom: 32px;
+
+
+                                      
+                                       
+                                    } 
+                                    
+                                }
+
+                                
+                                
+                                
+                                .inputGroup{
+                                    padding: -2px 0;
+                                    width: 100%;
+                                    position: relative;
+                                    border-bottom: 1px solid #e5e5e5;
+                                    margin-bottom: 32px;
+                                    select{
+                                        width: 100%;
+                                        padding: 8px;
+                                        border: none;
+                                        outline: none;
+                                        font-weight: 500;
+                                        font-size: 16px;
+                                        color: #666;
+                                        option{
+                                            color: #fa4251;
+
+                                        }
+                                    }
+                                    
+                                    
+                                }
+                                .form-2{
+                                    width: 100%;
+                                    position: relative;
+                                    margin-bottom: 32px;
+                                    
+                                    
+                                    .form-1{
+                                        padding: 9px 0;
+                                        width: 100%;
+                                        position: relative;
+                                        border-bottom: 1px solid #e5e5e5;
+                                        margin-bottom: 32px;
+
+
+                                        input{
+                                            width: 100%;
+                                            border: none;
+                                            outline: none;
+                                            font-weight: 500;
+                                            font-size: 16px;
+                                            color: #666;
+                                            padding: 9px 0;
+                                            
+                                            
+    
+                                        }    
+                                    }
+                                }
+                                .btn{
+                                    width: 100%;
+                                   font-weight: 400;
+                                    font-size: 14px;
+                                    box-sizing: inherit;
+                                    
+                                    button{
+                                        background:#4dae3c;
+                                        line-height: 40px;
+                                        display: inline-block;
+                                        padding: 0 25px;
+                                        cursor: pointer;
+                                        color: #fff;
+                                        transition: all 0.4s ease;
+                                        font-size: 14px;
+                                        font-weight: 700;
+                                        outline: none;
+                                        border: none;
+                                        border-radius: 5px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
